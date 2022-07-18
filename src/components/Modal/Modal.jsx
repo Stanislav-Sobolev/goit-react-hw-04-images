@@ -13,7 +13,7 @@ export const Modal = ({ handleCloseModal, bigImg }) => {
   useEffect(() => {
     document.addEventListener('keydown', onCloseModal);
     document.addEventListener('click', onCloseModal);
-  }, []);
+  });
 
   return (
     <div className={styles.Overlay}>
